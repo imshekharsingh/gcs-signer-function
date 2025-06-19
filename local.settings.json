@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "GCS_ACCESS_KEY": "",
+    "GCS_SECRET_KEY": "",
+    "GCS_BUCKET": ""
+  }
+}
