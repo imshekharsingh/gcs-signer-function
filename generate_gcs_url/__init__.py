@@ -28,6 +28,7 @@ def generate_signed_url(object_name):
 def main(req: func.HttpRequest, context: func.Context) -> func.HttpResponse:
     object_path = req.route_params.get("path", "").strip("/")
 
+    # Adding 400 status code logging
     if not object_path:
         logging.warning("400: Missing object path in request.")
         logging.debug(f"Request URL: {req.url}")
